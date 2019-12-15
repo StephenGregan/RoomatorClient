@@ -1,0 +1,132 @@
+.loginbox, .registrationbox
+{
+width: 300px;
+height: 400px;
+background: white;
+color: red;
+top: 45%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 30px;
+/* opacity: 0.5; */
+}
+
+.avatar
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: 100px;
+}
+
+h1
+{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+
+.loginbox p, .registrationbox p
+{
+margin: 0;
+padding: 0;
+font-weight: bold;
+/* text-align: center; */
+}
+
+.loginbox input, .registrationbox input
+{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"], .registrationbox input[type="text"], input[type="password"], input[type="number"]
+{
+border: none;
+border-bottom-style: 1px solid white;
+background: transparent;
+outline: none;
+height: 40px;
+color: black;
+font-size: 16px;
+}
+
+.loginbox input[type="submit"], .registrationbox input[type="submit"]
+{
+border: none;
+outline: none;
+height: 40px;
+background: orange;
+color: white;
+font-size: 18px;
+border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover, .registrationbox input[type="submit"]:hover
+{
+cursor: pointer;
+background: yellow;
+color: black;
+}
+
+.loginbox a, .registrationbox a
+{
+text-decoration: none;
+font-size: 12px;
+line-height: 20px;
+color: grey;
+}
+
+.loginbox a:hover, .registrationbox a:hover
+{
+color: pink;
+}
+
+.page
+{
+    background: white;
+}
+
+.roomatorLogo
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    left: 110px;
+    
+}
+
+.roomatorSig
+{
+    position: absolute;
+    /* height: 200px;
+    width: 200px; */
+    top: 400px;
+    left: -12px;
+}
+
+.login
+{
+    position: absolute;
+    /* height: 200px;
+    width: 200px; */
+    top: 50px;
+    left: 42px;
+}
+
+.registration
+{
+    position: absolute;
+    /* height: 200px;
+    width: 200px; */
+    top: 50px;
+    left: -25px;
+
+}
+
